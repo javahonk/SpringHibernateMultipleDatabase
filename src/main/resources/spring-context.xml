@@ -26,7 +26,7 @@
 	
 	<bean id="interestRateDaoHandler" class="com.javahonk.dao.InterestRateDaoHandler"/>	
 	
-	<import resource="hibernate/hibernate-queries.xml"/>
-	<import resource="hibernate/hibernate-anotherdatabase-queries.xml"/>
+	<import resource="hibernate-context.xml"/>
+	<import resource="hibernate-anotherdatabase-context.xml"/>
 		
 </beans>

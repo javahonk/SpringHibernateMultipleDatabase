@@ -15,7 +15,7 @@
 	
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	
-	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
           <property name="driverClass" value="${jdbc.driverClassName}" />
           <property name="jdbcUrl" value="${jdbc.url}" />
           <property name="user" value="${jdbc.username}" />
